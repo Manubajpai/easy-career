@@ -1,0 +1,85 @@
+h1 {
+  font-family: "Merienda";
+  font-size: 70px;
+  font-weight: normal;
+  text-align: center;
+  color: #808080;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.btn {
+  white-space: nowrap;
+  text-align: center;
+}
+
+#banner {
+  width: 92%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#brand-name {
+  font-family: "Merienda";
+  color: #808080;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: "Merienda";
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  color: #808080;
+}
+
+h4 {
+  font-family: "Merienda";
+  font-weight: normal;
+  color: #808080;
+}
+
+/* p {
+  font-family: "Montserrat";
+  font-size: 20px;
+} */
+
+.about {
+  max-width: 1000px;
+  margin: 100px auto 0;
+  display: block;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-image {
+  height: 320px;
+  flex-shrink: 0;
+}
+
+.about-text {
+  flex: 1;
+  margin-right: 70px;
+}
+
+.job-listings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.job-content {
+  flex-grow: 1;
+  width: 1200px;
+}
