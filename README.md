@@ -1,1 +1,0 @@
-easycareer flask app
