@@ -1,5 +1,9 @@
 from flask import Flask , render_template , jsonify
 from flask_sqlalchemy import SQLAlchemy
+import pymysql
+
+# use pymysql instead of mysqldb
+pymysql.install_as_MySQLdb()
 
 
 app = Flask(__name__)
