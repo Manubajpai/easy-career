@@ -97,7 +97,6 @@
       </div>
     </nav>
     <h1 style="margin-top: 83px">easyCareer</h1>
-    <!-- <img id="banner" src="static/banner.jpg" alt="passion led us here!!" /> -->
     <div
       id="carouselExample"
       class="carousel slide"
@@ -176,9 +175,11 @@
       {% for job in jobs %}
       <div class="job-listings">
         <div class="job-content">
-          <h4>{{job['title']}}</h4>
-          <div><b>Location:</b> {{job['location']}}</div>
-          <div><b>Salary:</b> {{job['salary']}}</div>
+          <h4>{{job.title}}</h4>
+          <div><b>Location:</b> {{job.location}}</div>
+          <div>
+            <b>Salary:</b> {{job.currency}} {{'{:,.0f}'.format{{job.salary}}}}
+          </div>
         </div>
         <div class="job-button">
           <a
