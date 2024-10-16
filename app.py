@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 
 # config for mysql database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:manubajpai%40123@localhost:3306/easycareer'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:manubajpai%40123@34.132.12.183:3306/easy-career'
 app.config['SQLALCHEMY_TRACK_NOTIFICATIONS'] = False
 
 # initialise the database
